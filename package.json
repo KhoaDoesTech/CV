@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://KhoaDoesTech.github.io/CV'",
+    "build-gh": "parcel build --public-url https://KhoaDoesTech.github.io/CV",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
